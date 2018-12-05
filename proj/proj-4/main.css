@@ -1,0 +1,39 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+    background: #edad19;
+    color: #000;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    border: 2px solid #4b4b4b;
+    border-radius: 30%;
+    text-decoration: none;
+    padding: 1px 2px;
+    transition: font-weight 0.5s;
+    text-align: center;
+}
+
+a:hover,
+a:active {
+    font-weight: 400;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#top img {
+    margin: 10px;
+    height: 60px
+}
+
+img {
+    margin: 10px;
+    height: 200px
+}

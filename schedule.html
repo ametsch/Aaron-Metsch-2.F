@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Aaron's Website</title>
+        
+        <link href="css/grid.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="vendors/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link href="Logo_Files/logo_transparent.png" rel="icon" type="image/png">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,900');
+            th,
+            td {
+                border: 2px solid #ddd;
+                text-align: center;
+                height: 30px;
+                color: #ddd;
+                
+            }
+            td {
+                font-weight: 500;
+                -webkit-transition: font-weight 0.5s;
+                transition: font-weight 0.5s;
+            }
+            td:hover{
+                font-weight: 700;
+            }
+            table {
+                width: 100%;
+            }
+            #link:visited,
+            #link:link {
+                text-decoration: none;
+                color: #000;
+                font-weight: 400;
+                -webkit-transition: fot-weight 0.5s;
+                transition: fot-weight 0.5s;
+            }
+            #link:hover,
+            #link:active {
+                font-weight: 600;
+            }
+        </style>
+        
+    </head>
+    <body>
+       <header class="row header">
+           
+           <div class="col span-1-of-4">
+               <img src="Logo_Files/logo.png" alt="Aaron Metsch" class="logo">
+           </div>
+           
+           <nav class="col span-3-of-4">
+               <ul>    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="future.html">My Future</a></li>
+                    <li><a href="schedule.html" class="this">My Schedule</a></li>
+                    <li><a href="projects.html">Selected Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+               </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <table>
+                <tr><th>Time</th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Time</th><th>Day X</th><th>Day Y</th></tr>
+                <tr><th>8:00 - 8:55</th><td>Biology</td><td>ECS</td><td>ECS</td><td>ECS</td><th rowspan=2>8:00 - 9:22</th><td rowspan=2>Biology</td><td rowspan=2>ECS</td></tr>
+                <tr><th>9:53 - 10:00</th><th colspan=4>MHS Info</th></tr>
+                <tr><th>9:02 - 9:55</th><td>Biology Lab</td><td>Geometry</td><td>Geometry</td><td>Geometry</td><th rowspan=2>9:30 - 10:52</th><td rowspan=2>PE / Free</td><td rowspan=2>Geometry</td></tr>
+                <tr><th>10:01 - 10:54</th><td>Global History</td><td>Global History</td><td>Biology</td><td>Biology</td></tr>
+                <tr><th>10:54 - 11:42</th><th colspan=4>Lunch</th><th>10:52 - 11:40</th><th colspan=2>Lunch</th></tr>
+                <tr><th>11:42 - 12:38</th><td>Skills</td><td>Skills</td><td>PE</td><td>PE</td><th rowspan=2>11:40 - 1:02</th><td rowspan=2>Free</td> <td rowspan=2>Global History</td></tr>
+                <tr><th>12:44 - 1:37</th><td>Free</td><td>Free</td><td>Free</td><td>Global History</td></tr>
+                <tr><th>1:43 - 2:36</th><td>English</td><td>English</td><td>English</td><td>Skills</td><th rowspan=2>1:10 - 2:32</th><td rowspan=2>English</td><td rowspan=2>Skills</td></tr>
+                <tr><th>2:36 - 3:00</th><th colspan=4>Extra Help</th></tr>
+            </table>
+        </section>
+        
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dignissim ex, vitae suscipit nibh. Nam euismod eros arcu, sed mattis magna finibus eu. Aliquam erat volutpat. Quisque quis ex eu nisi lacinia semper. Aliquam venenatis lorem metus, vitae semper magna ultricies quis. Donec eget tempor neque. Ut sed erat quis dui interdum venenatis et quis odio.</p>
+        </section>
+        
+        <div class="light-box">
+            <div class="solid">
+                <div class="center">
+                    <i class="inline ion-close-round light-box-close"></i>
+                    <h2 class="inline">Sign Up Now!</h2>
+                    <h4>For my mailing list</h4>
+                    <form action="https://formspree.io/aaron1@metschnet.com" method="POST" target="_blank">
+                        <input type="text" name="name" class="light-box-input" placeholder="Name">
+                        <input type="email" name="_replyto" class="light-box-input" placeholder="Email">
+                        <input type="submit" value="Send" class="light-box-input">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script><script src="script.js"></script><script src="jquery.waypoints.min.js"></script>
+</html>

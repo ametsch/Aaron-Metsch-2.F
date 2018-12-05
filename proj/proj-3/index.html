@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS @ MHS Survey</title>
+    </head>
+    <body>
+        <h1>Welcome to Computer Science @ MHS</h1>
+        <p>Please complete the following form.</p>
+        <hr>
+        <h2>Demographic Information</h2>
+        <form action="https://themrhohn.000webhostapp.com/info.php" method="post" target="_blank">
+	        <p>
+		      First Name:	<input type="text" name="firstName" placeholder='size="20"' />
+              Last Name: <input type="text" name="lastName"> 
+            </p>
+            <p>
+                Username: <input type="email" name="username" placeholder="example@domain.com">
+                Password: <input type="password" name="password">
+            </p>
+            <p>
+                Date of Birth: <input type="date" placeholder="mm/dd/yyyy">
+            </p>
+            <hr>
+            <h2>Class Information</h2>
+            <select name="class">
+                <option value="Exploring_Computer_Science">
+                    Exploring CS
+                </option>
+                <option value="Java">
+                    Intro to Java Programming
+                </option>
+                <option value="AP_Java">
+                    Advanced Java Programming
+                </option>
+            </select>
+            <p>
+                <input type="radio" name="teacher" value="Hohn">
+                Mr. Hohn
+                <input type="radio" name="teacher" value="Jadav">
+                Mr. Jadav
+            </p>
+            <p>Class Period: 
+                <input type="checkbox" name="period" value="1"> 1<sup>st</sup>
+                <input type="checkbox" name="period" value="2"> 2<sup>nd</sup>
+                <input type="checkbox" name="period" value="3"> 3<sup>rd</sup>
+                <input type="checkbox" name="period" value="4"> 4<sup>th</sup>
+                <input type="checkbox" name="period" value="5"> 5<sup>th</sup>
+                <input type="checkbox" name="period" value="6"> 6<sup>th</sup>
+                <input type="checkbox" name="period" value="7"> 7<sup>th</sup>
+                <input type="checkbox" name="period" value="8"> 8<sup>th</sup>
+            </p>
+            <p>What are you most excited about for the         school year?<br>
+                <textarea name="comments" placeholder="Enter your comments... (75x7)" cols=40 rows=6></textarea>
+            </p>
+	       <input type="submit" />
+        </form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600&subset=latin-ext');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+table {
+    display: inline-block
+}
+
+td,
+th {
+    border: 3px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    font-size: 125%;
+}
+
+td {
+    
+}

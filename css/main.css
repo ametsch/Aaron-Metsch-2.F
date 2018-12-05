@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,900');
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    text-rendering: optimizeLegibility;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header { text-align: center; }
+
+body {
+    background-color: #191ba9;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    width: 75%;
+    margin-top: 10px;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 8px 10px;
+}
+
+nav ul li a { list-style: none; }
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #16F4D0;
+    text-decoration: none;
+    border-bottom: 2px solid #16f4d0;
+    -webkit-transition: color 0.4s, border-bottom 0.4s;
+    transition: color 0.4s, border-bottom 0.4s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #14b79d;
+    border-bottom: 0;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+nav {
+    width: 75%;
+    margin-left: 25%;
+}
+
+.this:link,
+.this:visited {
+    padding: 4px;
+    border: 2px solid #16f4d0;
+    border-radius: 5px;
+    -webkit-transition: border 0.4s;
+    transition: border 0.4s;
+}
+
+.this:active,
+.this:hover { border: 2px solid #14b79d; }
+
+.input,
+.textarea { width: 200px;  }
+
+.label {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.section-main {
+    width: 95%;
+    margin: auto;
+    color: #fff;
+}
+
+.proj { 
+    width: 100%;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.proj img,
+.proj h2,
+.proj a {
+    display: block;
+    margin: auto;
+}
+
+.ms-logo,
+.goog-logo,
+.py-logo,
+.jq-logo {
+    width: 30%;
+    height: auto;
+    display: inline;
+    margin: 5px 1px;
+}
+
+p.inline {
+    display: inline;
+    margin: 5px 1px;
+}
+
+.ms-logo,
+.py-logo { float: left; }
+.goog-logo,
+.jq-logo { float: right; }
+
+.contact-form {
+    width: 640px;
+    margin-left: 400px;
+    height: 810px;
+}
+
+.icon-med {
+    display: inline-block;
+    list-style: none;
+    font-size: 40px;
+    margin: 10px;
+    padding: 0;
+}
+
+.twitter { color: #38A1F3; }
+.fb { color: #4267b2; }
+.gplus { color: #CC3333; }
+.git { color: #24292e; }
+
+.nav-list { margin: auto; }
+
+.btn:link,
+.btn:visited {
+    border: 2px solid #000;
+    border-color: aliceblue;
+    padding: 2px 4px;
+    margin: 5px 170px;
+    border-radius: 15px;
+    color: aliceblue;
+    -webkit-transition: color 0.4s, border-color 0.4s;
+    transition: color 0.4s, border-color 0.4s;
+    
+}
+
+.btn:hover,
+.btn:active {
+    color: aqua;
+    border-color: aqua;
+}
+
+.proj h2 { margin: 8px; }
+
+.light-box {
+    z-index: 9999;
+    background: rgba(66, 103, 178, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        
+}
+
+.solid {
+    background: #4267b2;
+    width: 40%;
+    height: 40%;
+    margin: 10% 30% 35% 30%;
+    padding: 40px;
+}
+
+.inline { display: inline-block; }
+
+i.inline {
+    position: fixed;
+    font-size: 50px;
+    top: 1%;
+    left: 94%;
+}
+
+.light-box-input {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.center { margin: 0 30%; }
+
+.sm-list { text-align: center; }
+
+.sm-list li { padding: 4px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
